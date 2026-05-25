@@ -1,0 +1,8 @@
+name: asbot_plugin_cumtcharge
+display_name: CUMT 充电口查询
+author: Codex
+desc: 基于 suid 查询中国矿业大学充电桩空余口，并可查看完整接口返回。
+short_desc: 查询空余充电口和完整返回 JSON。
+version: 1.0.0
+repo: https://docs.astrbot.app/dev/star/plugin-new.html
+astrbot_version: ">=4.16,<5"
