@@ -23,8 +23,8 @@
   - 如果不是群聊，则回退为分段发送。
   - 只支持直接传 `suid`，不支持站点名称映射。
 
-## 当前实现说明
+## 须知
 
-- `token` 当前硬编码在 [main.py](./main.py) 里。
+- `token` 在 [main.py](./main.py) 里，需要自行抓包获取并填入
 - 详情接口：`https://api.powerliber.com/client/1/device/detail`
 - 端口状态接口：`https://power-api.powerliber.com/client/2/device/profile`
